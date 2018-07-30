@@ -19,4 +19,5 @@ RUN pip install --no-cache-dir sklearn
 RUN pip install --no-cache-dir pandas
 RUN pip install --no-cache-dir networkx
 RUN pip install --no-cache-dir pypy
-RUN pip install -U nltk
+RUN pip install --no-cache-dir nltk
+RUN pip install seaborn
